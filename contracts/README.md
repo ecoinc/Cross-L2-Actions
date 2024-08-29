@@ -2,7 +2,7 @@
 
 Within the following sections, the terms 'source chain' and 'destination chain' will be relative to any given intent. Each supported chain will have its own `IntentSource`, `Inbox` and `Prover`.
 
-This repo makes heavy use of the Intent struct (found at `types/Intent.sol`). 
+This repo makes heavy use of the [Intent](/types/Intent.sol) struct. 
 
 Attributes:
 - `creator` (address): creator of the intent
