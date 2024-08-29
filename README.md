@@ -18,7 +18,7 @@
 
 An intents-driven, permissionless, trust-neutral protocol for facilitating the creation, incentivized execution, and proof of cross-L2 transactions.
 
-Warning: This code has not been audited. Use at your own risk. 
+**Warning: This code has not been audited. Use at your own risk.**
 
 - [Intent Creation / Settlement](#intent-creation--settlement)
 - [Intent Fulfillment / Execution](#intent-fulfillment--execution)
@@ -50,7 +50,7 @@ Intent fulfillment lives on the `Inbox`, which lives on the destination chain. `
 
 Intent proving lives on the `Prover`, which is on the source chain. `Provers` are the parties that should be interacting with the Prover contract, but the `IntentSource` does read state from it. 
 
-**<ins>See [contracts](/contracts) for a detailed API documentation</ins>**
+**See [contracts](/contracts) for a detailed API documentation**
 
 
 ## Future Work
